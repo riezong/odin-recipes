@@ -1,0 +1,38 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    outline: 1px solid lightblue;
+}
+body{
+    width: 500px;
+    margin: 16px auto;
+    padding: 16px;
+}
+
+h1 {
+    font-weight: 800;
+    color: white;
+    background-color: orange;
+    text-align: center;
+    padding: 8px;
+    margin: 16px;
+}
+
+.title {
+    
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    padding: 8px;
+    margin: 8px 16px;
+    color: white;
+    text-align: center;
+}
+
+.menu-item {
+    background-color: lightcoral;
+}
