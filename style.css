@@ -1,11 +1,29 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
-    outline: 1px solid lightblue;
+    outline: 1px dashed lightblue;
+    border-radius: 4px;
 }
-body{
+
+a {
+    color: orangered;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+body {
+    /* width: 500px; */
+    /* margin: 16px auto; */
+    /* padding: 16px; */
+}
+
+.recipe-card {
     width: 500px;
     margin: 16px auto;
     padding: 16px;
+    background-color: lightgray;
 }
 
 h1 {
@@ -18,21 +36,35 @@ h1 {
 }
 
 .title {
-    
+    display: flex;
 }
 
-ul {
-    padding: 0;
+.title h1 {
+    flex: 1;
 }
 
-li {
-    list-style-type: none;
-    padding: 8px;
-    margin: 8px 16px;
-    color: white;
+.menu .title {
+    display: block;
+    padding: 6px;
+    border: 1px solid orange;
+    margin: 8px auto;
+    font-weight: 700;
+    color: orange;
+}
+
+.menu {
+    display: flex;
     text-align: center;
 }
 
 .menu-item {
-    background-color: lightcoral;
+    flex: 1;
+    padding: 8px;
+    margin: 0 16px;
+    color: orange;
+    background-color: whitesmoke;
+}
+
+.flex {
+    display: flex;
 }
